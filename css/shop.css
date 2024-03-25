@@ -14,7 +14,8 @@
 
   width: 250px;
   margin: 20px;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
+  overflow: hidden;
   /* background-color: #ddd; */
 
   border: solid 1px black;
@@ -37,6 +38,18 @@
   justify-content: space-between;
   margin-top: 10px;
   min-width: 80%;
+}
+
+.product-image {
+  width: 250px;
+  height: 250px;
+
+  background-size: contain;
+  background-position: center;
+}
+
+.product-image > img {
+  width: 100%;
 }
 
 .buy-button {
