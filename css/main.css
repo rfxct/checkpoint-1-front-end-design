@@ -8,6 +8,12 @@
   font-family: "Poppins";
 }
 
+html,
+body,
+main {
+  height: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -17,8 +23,9 @@ span {
   font-size: 16px;
 }
 
-.header {
+.navbar {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 
@@ -26,9 +33,13 @@ span {
 
   color: #ddd;
   background-color: #6a3d3d;
+
+  position: fixed;
+  width: 100vw;
+  min-height: 88px;
 }
 
-.header .title {
+.navbar .title {
   text-decoration: none;
   color: #ddd;
   font-weight: 600;
@@ -37,31 +48,62 @@ span {
   letter-spacing: -2.5px;
 }
 
-.header .cart,
-.header .cart svg {
+.navbar .cart,
+.navbar .cart svg {
   width: 24px;
   height: 24px;
   fill: #ddd;
 }
 
-.navbar {
+.navbar .menu {
   padding: 20px;
   display: flex;
   align-items: center;
 }
 
-.navbar ul {
+.navbar .menu {
   display: flex;
+  line-height: 3;
   justify-content: space-around;
+  flex-wrap: wrap;
   list-style: none;
 
-  letter-spacing: -.2px;
+  letter-spacing: -0.2px;
 }
 
-.navbar ul > li + li {
+.navbar .menu li + li {
   margin-left: 40px;
 }
 
-.navbar a {
+.navbar .menu a {
   color: #ddd;
+}
+
+main {
+  padding-top: 88px;
+  height: fit-content;
+}
+
+.footer {
+  display: flex;
+  background: #6a3d3d;
+  color: #ddd;
+  padding: 30px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.footer > * > a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer .contato {
+  line-height: 1.8;
+}
+
+.footer .redes-sociais {
+  display: flex;
+  flex-direction: column;
 }
