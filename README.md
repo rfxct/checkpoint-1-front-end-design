@@ -11,6 +11,9 @@ Desenvolver um e-commerce para que a Vinheria possa alavancar suas vendas visto 
 # Motivação
 Se trata do checkpoint/avaliação para a matéria de Front-end Design, ministrada pelo professor Lucas Silva.
 
+# Membros
+- Marcos Ferreira (RM 556228)
+
 # Imagens do Projeto
 O projeto também pode ser acessado [clicando aqui](https://rfxct.github.io/checkpoint-1-front-end-design/)
 
