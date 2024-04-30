@@ -3,19 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="vinho,tinto,vinheria,agnello,vinicola" />
-    <meta
-      name="description"
-      content="Há mais de 15 anos no mercado, a melhor vinheria paulista está agora também na Internet!"
-    />
 
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/about-us.css" />
+    <link rel="stylesheet" href="../css/suggestion.css" />
 
-    <title>Vinheria Agnello - Mapa</title>
+    <title>Vinheria Agnello - Comprar</title>
   </head>
-
-  <body>
+  <body onload="carregarInformacoes()">
     <nav class="navbar">
       <a class="title" href="../">Agnello</a>
 
@@ -31,20 +25,12 @@
     </nav>
 
     <main>
-      <section class="about-us">
-        <h1>Vinheria Agnello</h1>
-        <p>
-          A Vinheria Agnello é uma vinheria brasileira que começou suas
-          operações em São Paulo há mais de 15 anos. Com apenas uma loja física,
-          a empresa é reconhecida por sua ampla variedade de rótulos de
-          vinícolas nacionais e internacionais. Um dos principais diferenciais
-          da Vinheria Agnello é o treinamento de seus vendedores, que orientam
-          os clientes sobre as características de cada variedade de uva, região,
-          vinícola ou rótulo de vinho. Eles também sugerem combinações com
-          diversos tipos de alimentos e refeições, adaptando os vinhos às
-          diferentes ocasiões de consumo.
-        </p>
-        <img src="../images/vinheria.webp" alt="vinheria" />
+      <h1>Sugestões de receitas</h1>
+      <section class="suggestions-container" id="suggestionsContainer">
+        <div class="suggestion">
+          <p class="suggestion-title"></p>
+          <p class="suggestion-content"></p>
+        </div>
       </section>
     </main>
 
@@ -75,14 +61,9 @@
           target="_blank"
           >instagr.am/vinheria.agnello</a
         >
-
-        <a
-          href="https://github.com/rfxct/checkpoint-front-end-design"
-          rel="noopener noreferrer"
-          target="_blank"
-          >github.com/rfxct</a
-        >
       </div>
     </footer>
+
+    <script src="../js/sugestoes.js"></script>
   </body>
 </html>
