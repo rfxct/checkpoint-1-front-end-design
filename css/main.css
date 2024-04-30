@@ -48,13 +48,6 @@ span {
   letter-spacing: -2.5px;
 }
 
-.navbar .cart,
-.navbar .cart svg {
-  width: 24px;
-  height: 24px;
-  fill: #ddd;
-}
-
 .navbar .menu {
   padding: 20px;
   display: flex;
@@ -75,7 +68,7 @@ span {
   margin-left: 40px;
 }
 
-.navbar .menu a {
+.navbar a {
   color: #ddd;
 }
 
@@ -106,4 +99,30 @@ main {
 .footer .redes-sociais {
   display: flex;
   flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.external-anchor {
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #5f76c2;
+  font-size: 18px;
+
+  transition: all 0.2s;
+}
+
+.external-anchor:hover {
+  color: #003cff;
+  font-size: 18px;
 }

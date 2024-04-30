@@ -67,11 +67,13 @@
   font-size: 16px;
   font-weight: 500;
 
-  color: #ddd;
+  color: #fff;
   background-color: #d65f5f;
   transition: all 0.2s;
 }
 
 .buy-button:hover {
   opacity: 0.7;
+  cursor: pointer;
+  transform: scale(1.06);
 }
