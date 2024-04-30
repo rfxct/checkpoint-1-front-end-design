@@ -79,6 +79,9 @@ main {
   padding: 20px 40px;
   border-radius: 8px;
   color: #fff;
+
+  animation: offerAnimation 1.2s ease infinite;
+  background-position: 100%;
 }
 
 .product-input {
@@ -88,4 +91,16 @@ main {
   border-radius: 5px;
   width: 250px;
   height: 60px;
+}
+
+@keyframes offerAnimation {
+  0% {
+    background-size: 100%;
+  }
+  50% {
+    background-size: 150%;
+  }
+  100% {
+    background-size: 100%;
+  }
 }
