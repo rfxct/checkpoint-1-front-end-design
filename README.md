@@ -23,7 +23,7 @@ Registro de alterações em comparação à release anterior
 - Alex Ribeiro (RM 557356)
 
 # Imagens do Projeto
-O projeto também pode ser acessado [clicando aqui](https://rfxct.github.io/checkpoint-1-front-end-design/)
+O projeto também pode ser acessado [clicando aqui](https://rfxct.github.io/checkpoint-front-end-design/)
 
 ### Página Inicial
 <img src="docs/index.png" >
