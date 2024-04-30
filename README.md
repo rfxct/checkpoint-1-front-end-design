@@ -7,18 +7,29 @@ Desenvolver um e-commerce para que a Vinheria possa alavancar suas vendas visto 
 # Tecnologias
 - HTML
 - CSS
+- JS
 
 # Motivação
 Se trata do checkpoint/avaliação para a matéria de Front-end Design, ministrada pelo professor Lucas Silva.
 
+# Atualizações
+Registro de alterações em comparação à release anterior
+### 30/04/2024
+- Adicionada página de produto ao clicar em "comprar";
+- Adicionadas animações nos botões de compra, banner de oferta e imagem do "sobre nós";
+
 # Membros
 - Marcos Ferreira (RM 556228)
+- Alex Ribeiro (RM 557356)
 
 # Imagens do Projeto
 O projeto também pode ser acessado [clicando aqui](https://rfxct.github.io/checkpoint-1-front-end-design/)
 
 ### Página Inicial
 <img src="docs/index.png" >
+
+### Produto
+<img src="docs/produto.png" >
 
 ### Loja
 <img src="docs/loja.png" >
